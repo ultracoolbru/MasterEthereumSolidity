@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StructsAndEnums.sol": "StructsAndEnums"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/StructsAndEnums.sol": {
+			"keccak256": "0x5e2c6070be3bc80ea6ab5b0e3939829301ff77dda16fb6119cbd00bed5eab601",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b4176de5983e295bdac4bc45280c839efea956749aa97d2387bbdec749480ad9",
+				"dweb:/ipfs/Qman2DmS8dzdfc9RrvjCoBqXsN9MGAtnL47qiJas8h2MSk"
+			]
+		}
+	},
+	"version": 1
+}

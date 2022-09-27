@@ -1,0 +1,430 @@
+{
+	"id": "1905dc8bd98a3f352907c0a80af758f5",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.17",
+	"solcLongVersion": "0.8.17+commit.8df45f5f",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/StructsAndEnums.sol": {
+				"content": "// SPDX-License-Identifier: MIT\r\n\r\npragma solidity >=0.8.17 <0.9.0;\r\n\r\n// Globally accessible\r\nstruct Instructor {\r\n    uint age;\r\n    string name;\r\n    address addr;\r\n}\r\ncontract StructsAndEnums {\r\n\r\n}"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"contracts": {
+			"contracts/StructsAndEnums.sol": {
+				"StructsAndEnums": {
+					"abi": [],
+					"devdoc": {
+						"kind": "dev",
+						"methods": {},
+						"version": 1
+					},
+					"evm": {
+						"assembly": "    /* \"contracts/StructsAndEnums.sol\":171:202  contract StructsAndEnums {... */\n  mstore(0x40, 0x80)\n  callvalue\n  dup1\n  iszero\n  tag_1\n  jumpi\n  0x00\n  dup1\n  revert\ntag_1:\n  pop\n  dataSize(sub_0)\n  dup1\n  dataOffset(sub_0)\n  0x00\n  codecopy\n  0x00\n  return\nstop\n\nsub_0: assembly {\n        /* \"contracts/StructsAndEnums.sol\":171:202  contract StructsAndEnums {... */\n      mstore(0x40, 0x80)\n      0x00\n      dup1\n      revert\n\n    auxdata: 0xa264697066735822122099472e0f36a2c8d5cb625d1e05ab28204c3a4f42e917fc08faf2fd9f3e49b86d64736f6c63430008110033\n}\n",
+						"bytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"linkReferences": {},
+							"object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122099472e0f36a2c8d5cb625d1e05ab28204c3a4f42e917fc08faf2fd9f3e49b86d64736f6c63430008110033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SWAP10 SELFBALANCE 0x2E 0xF CALLDATASIZE LOG2 0xC8 0xD5 0xCB PUSH3 0x5D1E05 0xAB 0x28 KECCAK256 0x4C GASPRICE 0x4F TIMESTAMP 0xE9 OR 0xFC ADDMOD STATICCALL CALLCODE REVERT SWAP16 RETURNDATACOPY 0x49 0xB8 PUSH14 0x64736F6C63430008110033000000 ",
+							"sourceMap": "171:31:0:-:0;;;;;;;;;;;;;;;;;;;"
+						},
+						"deployedBytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"immutableReferences": {},
+							"linkReferences": {},
+							"object": "6080604052600080fdfea264697066735822122099472e0f36a2c8d5cb625d1e05ab28204c3a4f42e917fc08faf2fd9f3e49b86d64736f6c63430008110033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SWAP10 SELFBALANCE 0x2E 0xF CALLDATASIZE LOG2 0xC8 0xD5 0xCB PUSH3 0x5D1E05 0xAB 0x28 KECCAK256 0x4C GASPRICE 0x4F TIMESTAMP 0xE9 OR 0xFC ADDMOD STATICCALL CALLCODE REVERT SWAP16 RETURNDATACOPY 0x49 0xB8 PUSH14 0x64736F6C63430008110033000000 ",
+							"sourceMap": "171:31:0:-:0;;;;;"
+						},
+						"gasEstimates": {
+							"creation": {
+								"codeDepositCost": "12600",
+								"executionCost": "66",
+								"totalCost": "12666"
+							}
+						},
+						"legacyAssembly": {
+							".code": [
+								{
+									"begin": 171,
+									"end": 202,
+									"name": "PUSH",
+									"source": 0,
+									"value": "80"
+								},
+								{
+									"begin": 171,
+									"end": 202,
+									"name": "PUSH",
+									"source": 0,
+									"value": "40"
+								},
+								{
+									"begin": 171,
+									"end": 202,
+									"name": "MSTORE",
+									"source": 0
+								},
+								{
+									"begin": 171,
+									"end": 202,
+									"name": "CALLVALUE",
+									"source": 0
+								},
+								{
+									"begin": 171,
+									"end": 202,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 171,
+									"end": 202,
+									"name": "ISZERO",
+									"source": 0
+								},
+								{
+									"begin": 171,
+									"end": 202,
+									"name": "PUSH [tag]",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 171,
+									"end": 202,
+									"name": "JUMPI",
+									"source": 0
+								},
+								{
+									"begin": 171,
+									"end": 202,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 171,
+									"end": 202,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 171,
+									"end": 202,
+									"name": "REVERT",
+									"source": 0
+								},
+								{
+									"begin": 171,
+									"end": 202,
+									"name": "tag",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 171,
+									"end": 202,
+									"name": "JUMPDEST",
+									"source": 0
+								},
+								{
+									"begin": 171,
+									"end": 202,
+									"name": "POP",
+									"source": 0
+								},
+								{
+									"begin": 171,
+									"end": 202,
+									"name": "PUSH #[$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 171,
+									"end": 202,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 171,
+									"end": 202,
+									"name": "PUSH [$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 171,
+									"end": 202,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 171,
+									"end": 202,
+									"name": "CODECOPY",
+									"source": 0
+								},
+								{
+									"begin": 171,
+									"end": 202,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 171,
+									"end": 202,
+									"name": "RETURN",
+									"source": 0
+								}
+							],
+							".data": {
+								"0": {
+									".auxdata": "a264697066735822122099472e0f36a2c8d5cb625d1e05ab28204c3a4f42e917fc08faf2fd9f3e49b86d64736f6c63430008110033",
+									".code": [
+										{
+											"begin": 171,
+											"end": 202,
+											"name": "PUSH",
+											"source": 0,
+											"value": "80"
+										},
+										{
+											"begin": 171,
+											"end": 202,
+											"name": "PUSH",
+											"source": 0,
+											"value": "40"
+										},
+										{
+											"begin": 171,
+											"end": 202,
+											"name": "MSTORE",
+											"source": 0
+										},
+										{
+											"begin": 171,
+											"end": 202,
+											"name": "PUSH",
+											"source": 0,
+											"value": "0"
+										},
+										{
+											"begin": 171,
+											"end": 202,
+											"name": "DUP1",
+											"source": 0
+										},
+										{
+											"begin": 171,
+											"end": 202,
+											"name": "REVERT",
+											"source": 0
+										}
+									]
+								}
+							},
+							"sourceList": [
+								"contracts/StructsAndEnums.sol",
+								"#utility.yul"
+							]
+						},
+						"methodIdentifiers": {}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/StructsAndEnums.sol\":\"StructsAndEnums\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/StructsAndEnums.sol\":{\"keccak256\":\"0x73a2d7e433d300615de46004be4b7ae45669711bf1ab8c99d81dd8ea672925f1\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8bb6deb51c0a48de7691f338ffff898af722676656a4ffb26f4a725c235d75ee\",\"dweb:/ipfs/QmZm3f816AnGfq8QDyAHWh9Rt1Mz4abG4wKTiCrocumA3L\"]}},\"version\":1}",
+					"storageLayout": {
+						"storage": [],
+						"types": null
+					},
+					"userdoc": {
+						"kind": "user",
+						"methods": {},
+						"version": 1
+					}
+				}
+			}
+		},
+		"sources": {
+			"contracts/StructsAndEnums.sol": {
+				"ast": {
+					"absolutePath": "contracts/StructsAndEnums.sol",
+					"exportedSymbols": {
+						"Instructor": [
+							8
+						],
+						"StructsAndEnums": [
+							9
+						]
+					},
+					"id": 10,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								">=",
+								"0.8",
+								".17",
+								"<",
+								"0.9",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "35:32:0"
+						},
+						{
+							"canonicalName": "Instructor",
+							"id": 8,
+							"members": [
+								{
+									"constant": false,
+									"id": 3,
+									"mutability": "mutable",
+									"name": "age",
+									"nameLocation": "125:3:0",
+									"nodeType": "VariableDeclaration",
+									"scope": 8,
+									"src": "120:8:0",
+									"stateVariable": false,
+									"storageLocation": "default",
+									"typeDescriptions": {
+										"typeIdentifier": "t_uint256",
+										"typeString": "uint256"
+									},
+									"typeName": {
+										"id": 2,
+										"name": "uint",
+										"nodeType": "ElementaryTypeName",
+										"src": "120:4:0",
+										"typeDescriptions": {
+											"typeIdentifier": "t_uint256",
+											"typeString": "uint256"
+										}
+									},
+									"visibility": "internal"
+								},
+								{
+									"constant": false,
+									"id": 5,
+									"mutability": "mutable",
+									"name": "name",
+									"nameLocation": "142:4:0",
+									"nodeType": "VariableDeclaration",
+									"scope": 8,
+									"src": "135:11:0",
+									"stateVariable": false,
+									"storageLocation": "default",
+									"typeDescriptions": {
+										"typeIdentifier": "t_string_storage_ptr",
+										"typeString": "string"
+									},
+									"typeName": {
+										"id": 4,
+										"name": "string",
+										"nodeType": "ElementaryTypeName",
+										"src": "135:6:0",
+										"typeDescriptions": {
+											"typeIdentifier": "t_string_storage_ptr",
+											"typeString": "string"
+										}
+									},
+									"visibility": "internal"
+								},
+								{
+									"constant": false,
+									"id": 7,
+									"mutability": "mutable",
+									"name": "addr",
+									"nameLocation": "161:4:0",
+									"nodeType": "VariableDeclaration",
+									"scope": 8,
+									"src": "153:12:0",
+									"stateVariable": false,
+									"storageLocation": "default",
+									"typeDescriptions": {
+										"typeIdentifier": "t_address",
+										"typeString": "address"
+									},
+									"typeName": {
+										"id": 6,
+										"name": "address",
+										"nodeType": "ElementaryTypeName",
+										"src": "153:7:0",
+										"stateMutability": "nonpayable",
+										"typeDescriptions": {
+											"typeIdentifier": "t_address",
+											"typeString": "address"
+										}
+									},
+									"visibility": "internal"
+								}
+							],
+							"name": "Instructor",
+							"nameLocation": "102:10:0",
+							"nodeType": "StructDefinition",
+							"scope": 10,
+							"src": "95:74:0",
+							"visibility": "public"
+						},
+						{
+							"abstract": false,
+							"baseContracts": [],
+							"canonicalName": "StructsAndEnums",
+							"contractDependencies": [],
+							"contractKind": "contract",
+							"fullyImplemented": true,
+							"id": 9,
+							"linearizedBaseContracts": [
+								9
+							],
+							"name": "StructsAndEnums",
+							"nameLocation": "180:15:0",
+							"nodeType": "ContractDefinition",
+							"nodes": [],
+							"scope": 10,
+							"src": "171:31:0",
+							"usedErrors": []
+						}
+					],
+					"src": "35:167:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

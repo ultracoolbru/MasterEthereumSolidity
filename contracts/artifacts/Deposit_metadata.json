@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AddressBalance.sol": "Deposit"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AddressBalance.sol": {
+			"keccak256": "0xba50d7b93f549c71dc85f9ec8403e3ae850c2bff9804e8798bd20de3f6ea4f07",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3951dc89a54c75eed3ead54e267870cf9d7ce031ac5a40e9bfe5db810cdea823",
+				"dweb:/ipfs/QmNZhXD53ekDcUkAyuBTYy9iqDyV7NAz2CMFcpMZd9rKLN"
+			]
+		}
+	},
+	"version": 1
+}
