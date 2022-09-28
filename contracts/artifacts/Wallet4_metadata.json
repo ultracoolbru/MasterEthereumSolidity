@@ -59,11 +59,11 @@
 	},
 	"sources": {
 		"contracts/StructsAndEnums.sol": {
-			"keccak256": "0x12b82947bd1ef8da3c60ad0a0bb7f65883edefe1312618ec0da88ba54d48830c",
+			"keccak256": "0xaeefc0706bd6096cb9bb8eef203ea54bcb312e072155b751a5bbe454cb72fb97",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://aa02195949ddcfa537f4c04411bc2f3b4cc2357f0d5248fd4fd1a339ea0cdce3",
-				"dweb:/ipfs/QmQAydRBqSBf66k7VSFVwZ9JF4VBQfWo7RhHAjuBjRSu75"
+				"bzz-raw://a2f4d12965ae35416466b00b9a232e4dc8ed60e6655e7c6d79b60b43dbbfb809",
+				"dweb:/ipfs/QmZCmgcncMc2mat4z1WHRYvGUAgq88GkLj644ekBDZD1ow"
 			]
 		}
 	},

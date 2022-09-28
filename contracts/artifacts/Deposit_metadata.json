@@ -6,8 +6,9 @@
 	"output": {
 		"abi": [
 			{
-				"stateMutability": "payable",
-				"type": "fallback"
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
 			},
 			{
 				"inputs": [],
@@ -23,8 +24,24 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sendEther",
+				"outputs": [],
 				"stateMutability": "payable",
-				"type": "receive"
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -40,7 +57,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/AddressBalance.sol": "Deposit"
+			"contracts/ContractBalance.sol": "Deposit"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -54,12 +71,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/AddressBalance.sol": {
-			"keccak256": "0xba50d7b93f549c71dc85f9ec8403e3ae850c2bff9804e8798bd20de3f6ea4f07",
+		"contracts/ContractBalance.sol": {
+			"keccak256": "0x4ac8ee039caa387324fc739386d9fb9503b63a6e50b57418a49f5c089799f687",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3951dc89a54c75eed3ead54e267870cf9d7ce031ac5a40e9bfe5db810cdea823",
-				"dweb:/ipfs/QmNZhXD53ekDcUkAyuBTYy9iqDyV7NAz2CMFcpMZd9rKLN"
+				"bzz-raw://ee68bb76ab164902afcd083971e69a2568fa0e552ef332e480259c3d3fc1037a",
+				"dweb:/ipfs/QmNvEGK6nmt5kXBWzPiAmpJDKDYHFR2RQa32XmQ26ojWNd"
 			]
 		}
 	},

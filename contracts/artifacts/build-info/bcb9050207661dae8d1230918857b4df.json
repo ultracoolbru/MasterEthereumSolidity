@@ -1,0 +1,68 @@
+{
+	"id": "bcb9050207661dae8d1230918857b4df",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.17",
+	"solcLongVersion": "0.8.17+commit.8df45f5f",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/PayableReceiveFallback.sol": {
+				"content": "// SPDX-License-Identifier: MIT\r\n\r\npragma solidity >=0.8.17;\r\n\r\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": true,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"sources": {
+			"contracts/PayableReceiveFallback.sol": {
+				"ast": {
+					"absolutePath": "contracts/PayableReceiveFallback.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								">=",
+								"0.8",
+								".17"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "35:25:0"
+						}
+					],
+					"src": "35:29:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
