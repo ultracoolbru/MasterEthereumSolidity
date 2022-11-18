@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: UNLICENSED
 
-pragma solidity 0.8.17.0;
+pragma solidity 0.8.17;
 
 // 0.1 Ether = 100000000000000000
 contract Lottery {
@@ -50,7 +50,7 @@ contract Lottery {
         return address(this).balance;
     }
 
-    function randomNumberGenerator() private view returns(uint) {
+    function randomNumberGenerator() internal view returns(uint) {
         // Do not use a random number generator in production, because you can get hacked.
         return uint(keccak256(abi.encodePacked(block.difficulty, block.timestamp, players.length)));
     }
@@ -70,5 +70,6 @@ contract Lottery {
         lotteryComplete = true;
         winner = players[index];
         winner.transfer(getBalance());
+        players = new address payable[](0);
     }
 }
